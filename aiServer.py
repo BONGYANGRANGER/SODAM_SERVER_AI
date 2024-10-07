@@ -28,8 +28,8 @@ app = FastAPI(
 )
 
 # 환경 변수 설정
-GOOGLE_API_KEY = "AIzaSyCXhDJgQBldkqjGUKLvZHkJELq25ntgImw"  
-NGROK_AUTH_TOKEN = "2j27vD2VtJOyWNLlG1Hhe6aUTVl_782M5FWdcUq833RhR4ZhE"
+GOOGLE_API_KEY = ""  
+NGROK_AUTH_TOKEN = ""
 SAVE_PATH = "./farm_diary_outputs"
 os.makedirs(SAVE_PATH, exist_ok=True)
 
